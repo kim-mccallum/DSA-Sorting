@@ -4,6 +4,7 @@ Given the following list of numbers
 `21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40`
 
 - What is the resulting list that will be sorted after 3 recursive calls to mergesort?
+  `[21,2,26,45]`
 - What is the resulting list that will be sorted after 16 recursive calls to mergesort?
 - What are the first 2 lists to be merged?
 - Which two lists would be merged on the 7th merge?
@@ -16,8 +17,11 @@ Given the following list of numbers
 -The pivot could have been either 14 or 17
 -Neither 14 nor 17 could have been the pivot
 -The pivot could have been 14, but could not have been 17
+`The pivot could have been either 14 or 17 because the values preceding 14 and 17 are below 14 and 17`
 
 -2) Given the following list of numbers `14, 17, 13, 15, 19, 10, 3, 16, 9, 12` show the resulting list after the second partitioning according to the quicksort algorithm.
 
 - When using the last item on the list as a pivot
+  -first `[3, 9, 10, 12, 14, 17, 13, 15, 19]`
+  -second - COME BACK TO THIS!!! I NEED TO STUDY/CLARIFY
 - When using the first item on the list as a pivot
